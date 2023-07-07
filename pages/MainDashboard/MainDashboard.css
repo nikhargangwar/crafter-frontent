@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@500;600;700&family=Big+Shoulders+Text:wght@700&family=Sofia+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.main-dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.blueprint-name {
+  border: 2px solid #18cccc;
+  color: black;
+  width: auto;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.main-dashboard-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100% !important;
+  height: 100%;
+}
+
+.main-dashboard-modal-card {
+  background-color: #ffffff;
+  height: 600px;
+  width: 500px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-dashboard-modal-card p:nth-child(1) {
+  font-size: 40px;
+  text-align: center;
+}
+
+.main-dashboard-modal-card :nth-child(1) span {
+  color: #18CCCC;
+  font-weight: bold;
+}
+
+.main-dashboard-modal-card P:nth-child(2) {
+  margin: 20px 0;
+  font-size: larger;
+}
+
+.main-dashboard-modal-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.main-dashboard-modal-button button {
+  width: 150px;
+  background-color: #18CCCC;
+  border: 2px solid #18CCCC;
+  font-weight: bold;
+  font-size: large;
+}
+
+.main-dashboard-modal-button button:hover {
+  width: 150px;
+  background-color: #00c8c8;
+  border: 2px solid #18CCCC;
+}
+
+.main-dashboard-modal-card-image img {
+  height: 300px;
+}
+
+.main-dashboard-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100% !important;
+  height: 100%;
+}
+
+.main-dashboard-modal-card {
+  background-color: #ffffff;
+  height: 600px;
+  width: 500px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-dashboard-modal-card p:nth-child(1) {
+  font-size: 40px;
+}
+
+.main-dashboard-modal-card :nth-child(1) span {
+  color: #18CCCC;
+  font-weight: bold;
+}
+
+.main-dashboard-modal-card P:nth-child(2) {
+  margin: 20px 0;
+  font-size: larger;
+}
+
+.main-dashboard-modal-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.main-dashboard-modal-button button {
+  width: 150px;
+  background-color: #18CCCC;
+  border: 2px solid #18CCCC;
+  font-weight: bold;
+  font-size: large;
+}
+
+.main-dashboard-modal-button button:hover {
+  width: 150px;
+  background-color: #00c8c8;
+  border: 2px solid #18CCCC;
+}
+
+.main-dashboard-modal-card-image img {
+  height: 300px;
+}
+
+.dashboard-service {
+  position: relative !important;
+  display: flex;
+  height: 90%;
+  width: 100vw;
+  background-color: #EBEBEB;
+}
+
+.simple-floatingedges {
+  flex-direction: column;
+  display: flex;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.react-flow {
+  background-color: rgb(235, 235, 235) !important;
+  background-image: url('../../assets/grid.png');
+  background-position-y: center;
+  background-position-x: center;
+
+  background-repeat: no-repeat;
+}
+
+.react-flow path {
+  stroke: rgba(0, 0, 0, 0.724);
+  stroke-width: 3px;
+
+}
+
+.simple-floatingedges .react-flow__handle {
+  width: 8px;
+  height: 8px;
+  background-color: black !important;
+}
+
+.simple-floatingedges .react-flow__handle-top {
+  top: -15px;
+}
+
+.simple-floatingedges .react-flow__handle-bottom {
+  bottom: -15px;
+}
+
+.simple-floatingedges .react-flow__handle-left {
+  left: -15px;
+}
+
+.simple-floatingedges .react-flow__handle-right {
+  right: -15px;
+}
+
+.simple-floatingedges .react-flow__node-custom {
+  background: #fff;
+  border: 1px solid #1a192b;
+  border-radius: 3px;
+  color: #222;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+}
+
+.react-flow__node-custom {
+  border: 2px solid black;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+.config-body {
+  border: 1px solid rgb(82, 81, 81);
+  height: 100%;
+  width: 20vw;
+  min-width: 280px;
+  background-color: #211E1E;
+  margin: 0;
+  overflow: auto;
+  border: none;
+}
+
+.config-body::-webkit-scrollbar {
+  display: none;
+  /* Safari and Chrome */
+}
+
+.config-element-border {
+  height: 5vh;
+  border-bottom: 2px solid #18CCCC;
+  text-align: center;
+  font-size: 1.8rem;
+  color: #ffffff;
+  padding-top: 1vh;
+  font-family: 'Bebas Neue', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-flow__controls {
+  width: 50px;
+  height: 50px;
+}
+
+.controls {
+  top: 70vh;
+  width: 1vh;
+}
+
+@media screen and (max-width:768px) {
+  .config-element-border {
+    font-size: 15px;
+    height: 5vh;
+    padding-top: 1.5vh;
+
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .main-dashboard-modal-card {
+    background-color: #ffffff;
+    height: 700px;
+    width: 500px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .main-dashboard-modal-card p:nth-child(1) {
+    font-size: 40px;
+  }
+
+  .main-dashboard-modal-card :nth-child(1) span {
+    color: #18CCCC;
+  }
+
+  .main-dashboard-modal-card P:nth-child(2) {
+    margin: 20px 0;
+    font-size: larger;
+  }
+
+  .main-dashboard-modal-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .main-dashboard-modal-button button {
+    width: 200px;
+    background-color: #18CCCC;
+    border: 2px solid #18CCCC;
+  }
+
+  .main-dashboard-modal-button button:hover {
+    width: 200px;
+    background-color: #00c8c8;
+    border: 2px solid #18CCCC;
+  }
+
+  .main-dashboard-modal-card-image img {
+    height: 350px;
+  }
+
+}

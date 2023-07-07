@@ -1,0 +1,32 @@
+body {
+    background-color: white;
+    
+}
+.config-body{
+    border: 1px solid rgb(82, 81, 81);
+    height: 98vh;
+    width: 24.25vw;
+    background-color: white;
+    margin: 0 0 0 75.4vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    overflow: auto;
+}
+.config-element-border{
+    height: 5vh;
+    font-size: 20px;
+    border-bottom : 2px solid rgb(82, 81, 81);
+    text-align: center;
+    padding-top: 2vh;
+    
+}
+
+@media screen and (max-width:768px) {
+    .config-element-border{
+        font-size: 15px;
+        height: 5vh;
+        padding-top: 1.5vh;
+
+    }
+    
+}

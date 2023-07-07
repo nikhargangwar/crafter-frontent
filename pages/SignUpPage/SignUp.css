@@ -1,0 +1,13 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.signup-page {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.signup-page-right {
+  width: 40%;
+}

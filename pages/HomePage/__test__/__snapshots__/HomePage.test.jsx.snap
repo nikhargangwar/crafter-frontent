@@ -1,0 +1,249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="flex w-full h-screen MuiBox-root css-0"
+  >
+    <div
+      class="h-screen w-full py-5 px-10 MuiBox-root css-0"
+    >
+      <div
+        class="flex justify-between items-center MuiBox-root css-0"
+      >
+        <div
+          class="flex items-center justify-between p-3 h-[10%] w-full MuiBox-root css-0"
+        >
+          <div
+            class="flex items-center w-14 ml-14 cursor-pointer"
+          >
+            <img
+              src="crafter-logo-dark.svg"
+            />
+          </div>
+          <div
+            class="user"
+          >
+            <div
+              class="MuiBox-root css-j0tqbx"
+            >
+              <button
+                class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-sizeMedium css-whjmaz-MuiButtonBase-root-MuiIconButton-root"
+                tabindex="0"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  data-testid="Brightness4Icon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69zM12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6c3.31 0 6 2.69 6 6s-2.69 6-6 6z"
+                  />
+                </svg>
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <button
+              aria-haspopup="true"
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall css-137ul40-MuiButtonBase-root-MuiIconButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <div
+                class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault avatar css-1d090hw-MuiAvatar-root"
+              >
+                t
+              </div>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="w-full h-20 flex justify-center MuiBox-root css-0"
+      >
+        <div
+          class="flex gap-2 justify-between font-bold text-5xl MuiBox-root css-0"
+        >
+          <h1
+            style="font-family: Bebas Neue;"
+          >
+             LET'S 
+          </h1>
+          <div
+            class="flex flex-col items-center MuiBox-root css-0"
+          >
+            <h1
+              style="color: rgb(24, 204, 204); font-family: Bebas Neue;"
+            >
+              CREATE
+            </h1>
+            <hr
+              class="MuiDivider-root MuiDivider-fullWidth css-i7rfwh-MuiDivider-root"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex gap-8 MuiBox-root css-0"
+      >
+        <div
+          class="MuiTabs-root css-h2jtf5-MuiTabs-root"
+        >
+          <div
+            class="MuiTabs-scroller MuiTabs-fixed css-jpln7h-MuiTabs-scroller"
+            style="overflow: hidden; margin-bottom: 0px;"
+          >
+            <div
+              class="MuiTabs-flexContainer css-heg063-MuiTabs-flexContainer"
+              role="tablist"
+            >
+              <button
+                aria-label="Create a system design"
+                aria-selected="true"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-1a0tgcb-MuiButtonBase-root-MuiTab-root"
+                data-mui-internal-clone-element="true"
+                role="tab"
+                tabindex="0"
+                type="button"
+              >
+                Blueprints
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+              <button
+                aria-label="Configure options for deployment to clusters"
+                aria-selected="false"
+                class="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1a0tgcb-MuiButtonBase-root-MuiTab-root"
+                data-mui-internal-clone-element="true"
+                role="tab"
+                tabindex="-1"
+                type="button"
+              >
+                Clusters
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+            <span
+              class="MuiTabs-indicator css-1aquho2-MuiTabs-indicator"
+              style="left: 0px; width: 0px;"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex justify-between items-end mt-10 MuiBox-root css-0"
+      >
+        <div
+          class="flex flex-col bg-transparent justify-center items-center w-48 h-40 cursor-pointer hover:-translate-y-2 MuiBox-root css-ip4xcc"
+          data-testid="new-button"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-f29ca8-MuiSvgIcon-root"
+            data-testid="AddIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"
+            />
+          </svg>
+          <h2>
+            New Blueprint
+          </h2>
+        </div>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-igfdmi-MuiButtonBase-root-MuiButton-root"
+          tabindex="0"
+          type="button"
+        >
+          Import
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+      <div
+        class="flex justify-between mt-16 MuiBox-root css-0"
+      >
+        <div
+          class="MuiBox-root css-1z0rujf"
+        >
+          <h1
+            class="text-2xl font-extrabold font-[Poppins] mb-3"
+          >
+            RECENT BLUEPRINTS
+          </h1>
+          <hr
+            style="background-color: rgb(24, 204, 204); height: 3px;"
+          />
+        </div>
+        <div
+          class="MuiFormControl-root MuiTextField-root css-1hwz93b-MuiFormControl-root-MuiTextField-root"
+        >
+          <div
+            class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-sizeSmall MuiInputBase-adornedStart css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root"
+          >
+            <div
+              class="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-outlined MuiInputAdornment-sizeSmall css-ittuaa-MuiInputAdornment-root"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="SearchIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                />
+              </svg>
+            </div>
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputTypeSearch MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedStart css-1xp6qmi-MuiInputBase-input-MuiOutlinedInput-input"
+              id=":r2:"
+              placeholder="Search"
+              type="search"
+              value=""
+            />
+            <fieldset
+              aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                class="css-ihdtdm"
+              >
+                <span
+                  class="notranslate"
+                >
+                  ​
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-wrap justify-start gap-8 mt-10 MuiBox-root css-0"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
