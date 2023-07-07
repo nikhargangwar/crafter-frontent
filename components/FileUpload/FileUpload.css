@@ -1,0 +1,30 @@
+.dropzone {
+  border-radius: 5px;
+  border: 2px dashed #ccc;
+  padding: 20px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  overflow-y: auto;
+  max-height: 50vh;
+}
+
+.dropzone p {
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+}
+
+.dropzone.active {
+  border-color: #6c63ff;
+}
+
+progress {
+  width: 100%;
+  height: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}

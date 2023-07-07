@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Page should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="home"
+  >
+    <div
+      class="home-upper"
+    >
+      <div
+        class="home-upper-navbar"
+      >
+        <div
+          class="home-upper-navbar-content"
+        >
+          <img
+            alt="Application Logo"
+            src="crafter-logo-dark.svg"
+          />
+          <div
+            class="navbar-options"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium login-button css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+              tabindex="0"
+              type="button"
+            >
+              Login
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div
+        class="home-upper-content"
+      >
+        <div
+          class="home-upper-content-left"
+        >
+          <img
+            alt="carfter text"
+            src="crafter-main-dark.svg"
+          />
+          <hr />
+          <p>
+            Effortlessly design and deploy
+            <span />
+            <span
+              class="styles-module_blinkingCursor__yugAC styles-module_blinking__9VXRT"
+            >
+              |
+            </span>
+          </p>
+          <div
+            class="home-upper-content-left-buttons"
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+              id="get-started"
+              tabindex="0"
+              type="button"
+            >
+              GET STARTED
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+            <a
+              href="https://k8s-designer.onrender.com/"
+              target="__blank"
+            >
+              <button
+                class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+                tabindex="0"
+                type="button"
+              >
+                DOCUMENTATION
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                  data-testid="OpenInNewIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+                  />
+                </svg>
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </a>
+          </div>
+        </div>
+        <div
+          class="home-upper-content-right"
+        >
+          <img
+            alt="Canvas Image"
+            src="landingPageGrid.png"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="home-middle"
+    >
+      <div
+        class="home-middle-card-1"
+      >
+        <img
+          alt=""
+          src="blueprintDesign.svg"
+        />
+        <div
+          class="blueprint-design-text"
+        >
+          <div
+            class="card-text-heading"
+          >
+            <p>
+              Blueprint 
+              <span
+                style="color: rgb(24, 204, 204);"
+              >
+                Design
+              </span>
+               
+            </p>
+          </div>
+          <hr />
+          <div
+            class="card-text-desription"
+          >
+            <p>
+              Tired of writing boilerplate code? We’re here to make things faster - drag, drop and connect components to create your own system design, and then get all the boilerplate code with the click of a button! 
+            </p>
+            <br />
+            <p>
+               In Crafter, a system design you create is called a blueprint.They are versioned, so you don’t need to fret if you decide to get the boilerplates for something you created some time ago.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="home-middle-card-2"
+      >
+        <img
+          alt=""
+          src="export-blueprint.svg"
+        />
+        <div
+          class="export-blueprint-design-text"
+        >
+          <div
+            class="card-text-heading"
+          >
+            <p>
+              Export 
+              <span
+                style="color: rgb(24, 204, 204);"
+              >
+                Blueprint
+              </span>
+               
+            </p>
+          </div>
+          <hr />
+          <div
+            class="card-text-desription"
+          >
+            <p>
+              Effortlessly design and deploy containerized applications on Kubernetes with our intuitive K8s Designer tool. Effortlessly design and deploy containerized applications on Kubernetes with our intuitive K8s Designer tool.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="home-middle-card-1"
+      >
+        <img
+          alt=""
+          src="deployToCluster.svg"
+        />
+        <div
+          class="deploy-to-cluster-text"
+        >
+          <div
+            class="card-text-heading"
+          >
+            <p>
+              Deploy To 
+              <span
+                style="color: rgb(24, 204, 204);"
+              >
+                Cluster
+              </span>
+               
+            </p>
+          </div>
+          <hr />
+          <div
+            class="card-text-desription"
+          >
+            <p>
+              Why just stop at creating a system design and getting its boilerplates? Crafter also lets you deploy the boilerplate code to a cluster.
+            </p>
+            <br />
+            <p>
+               Just let Crafter know where to deploy - and it will deploy it for you! For now, we support deployments locally (on a kind Kubernetes cluster) and on EKS. But soon, this feature will also be extensible using plugins. 
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="home-middle-card-2"
+      >
+        <img
+          alt=""
+          src="plugin-marketplace.svg"
+        />
+        <div
+          class="plugin-marketplace-text"
+        >
+          <div
+            class="card-text-heading"
+          >
+            <p>
+              Plugin 
+              <span
+                style="color: rgb(24, 204, 204);"
+              >
+                Marketplace
+              </span>
+               
+            </p>
+          </div>
+          <hr />
+          <div
+            class="card-text-desription"
+          >
+            <p>
+              Don’t have a component that you need on the toolbar? No worries - you can just create your own! Or, you can use a plugin developed by someone else.
+            </p>
+            <br />
+            <p>
+               It is simple to create plugins and push it to the Crafter repository using an easy to use command line tool that we provide. Crafter is designed to be inherently extensible using various kinds of plugins that let you expand your palette and give a higher variety of generation presets.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="home-lower"
+    >
+      <div
+        class="home-lower-content"
+      >
+        <p>
+          Hello 
+          <span>
+            Dev
+          </span>
+          elopment 👋
+        </p>
+        <p>
+          Goodbye Lengthy Setup!
+        </p>
+      </div>
+      <div
+        class="home-lower-video"
+      >
+        <img
+          alt="Application Video"
+          src="abcd.gif"
+        />
+      </div>
+      <div
+        class="home-lower-footer"
+      >
+        <hr />
+        <div
+          class="home-lower-footer-text"
+        >
+          <p>
+            Developed with ❤️ and ☕
+          </p>
+          <p>
+            © 2023 Group 7 Interns | All rights reserved
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@500;600;700&family=Big+Shoulders+Text:wght@700&family=Sofia+Sans:wght@700&display=swap');
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #211E1E;
+  padding: 10px 30px;
+  /* border-bottom: 1px solid #18CCCC; */
+  height: 10%;
+  width: 100vw;
+}
+
+.logo {
+  margin-left: 80px;
+  margin-top: 10px;
+  width: 50px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.profile {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile p {
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+p {
+  margin: 0;
+}
+
+.user-name {
+  font-size: 2vh;
+  text-transform: capitalize;
+  /* color: white; */
+  font-family: 'Big Shoulders Inline Display', cursive;
+  font-family: 'Big Shoulders Text', cursive;
+  font-family: 'Sofia Sans', sans-serif;
+}
+
+.avatar {
+  font-size: 3vh !important;
+  text-transform: uppercase;
+}
+
+.profile-menu {
+  background-color: #ecf1f1;
+  padding: 18px 15px;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+.logout {
+  height: 20% !important;
+  margin: 0 10px;
+}

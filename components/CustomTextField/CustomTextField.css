@@ -1,0 +1,31 @@
+.custom-textfield-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    gap: 0px 10px;
+    position: relative;
+    width: 90% !important;
+}
+
+.custom-textfield>* {
+    margin: 8px 0px 0px 0px !important;
+}
+
+.add-textfield-btn {
+    position: absolute;
+    left: 300px;
+    bottom: 245px;
+    color: rgb(19, 51, 124) !important;
+}
+
+.custom-config-value {
+    width: 50% !important;
+}
+
+@media screen and (max-width:768px) {
+    .add-textfield-btn {
+        left: 155px;
+        bottom: 270px
+    }
+}

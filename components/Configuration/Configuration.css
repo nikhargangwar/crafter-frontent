@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
+.config-layout {
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.config-bar {
+
+    color: white;
+}
+
+.service-element-border {
+    font-size: 30px !important;
+    font-family: 'Outfit', sans-serif;
+    height: 10vh;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive !important;
+}
+
+.service-element-border-hr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.service-element-border-hr hr {
+    height: 1px;
+    margin: 2px 0;
+    width: 80%;
+    border-color: #18CCCC;
+}
+
+.config-element-border {
+    height: 6vh !important;
+    font-size: 1.8rem !important;
+}
+
+.config-layout-container {
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+}
+
+.config-fields {
+
+    width: 90%;
+    margin: 5px 0px !important;
+}
+
+.accordion-list {
+    background-color: #211E1E !important;
+    color: white !important;
+    margin: 20px 0;
+}
+
+.config-btn-color {
+    margin: 10px auto 10px auto !important;
+    background-color: #18CCCC !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 90% !important;
+    width: 80%;
+    
+    font-weight: 800 !important;
+}
+
+.config-btn-color:hover {
+    color: black !important;
+    border: 2px solid black !important;
+}
+
+.add-textfield-container {
+    display: flex;
+    align-items: center;
+    color: #BBCCCC;
+    width: 18.2vw;
+    height: 7vh;
+}
+
+/* .add-textfield-container:hover {
+    color: black;
+    cursor: pointer;
+    border: 1px solid #18CCCC;
+} */
+
+.add-textfield-container>p {
+    color: rgb(255, 255, 255);
+
+    width: 16vw;
+    padding-left: 10px;
+}
+
+.add-textfield-container>p {
+    color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    width: 16vw;
+    padding-left: 10px;
+}
+
+.add-repo-container {
+    display: flex;
+    align-items: center;
+}
+
+.add-textfield-container>div>div>p {
+    color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue', cursive !important;
+    font-size: 25px !important;
+}
+
+
+.add-repo-container>div>div>svg {
+    color: white !important;
+}
+
+.add-repo-container:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    .service-element-border {
+        font-size: 15px;
+        height: 7vh;
+        padding-top: 1.5vh;
+
+    }
+
+    .config-layout> {
+        font-size: 15px !important;
+    }
+
+    .add-textfield-container {
+        right: -5px;
+        bottom: 270px;
+    }
+
+}

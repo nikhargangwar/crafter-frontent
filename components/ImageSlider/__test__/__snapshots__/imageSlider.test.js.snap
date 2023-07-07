@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageSlider up should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="image-slider"
+  >
+    <h1>
+      text 
+      <span>
+        Developer
+      </span>
+       emoji
+    </h1>
+    <div
+      class="image-slider-images"
+    >
+      <div
+        aria-live="polite"
+        class="image-gallery"
+      >
+        <div
+          class="image-gallery-content  image-gallery-thumbnails-bottom"
+        >
+          <div
+            class="image-gallery-slide-wrapper  image-gallery-thumbnails-bottom"
+          >
+            <div
+              class="image-gallery-swipe"
+            >
+              <div
+                class="image-gallery-slides"
+              >
+                <div
+                  aria-label="Go to Slide 1"
+                  class="image-gallery-slide  image-gallery-center "
+                  role="button"
+                  style="display: inherit; transform: translate3d(0%, 0, 0);"
+                  tabindex="-1"
+                >
+                  <img
+                    alt=""
+                    class="image-gallery-image"
+                    height=""
+                    loading="eager"
+                    sizes=""
+                    srcset=""
+                    title=""
+                    width=""
+                  />
+                </div>
+                <div
+                  aria-label="Go to Slide 2"
+                  class="image-gallery-slide  image-gallery-right "
+                  role="button"
+                  style="display: inherit; transform: translate3d(100%, 0, 0);"
+                  tabindex="-1"
+                >
+                  <img
+                    alt=""
+                    class="image-gallery-image"
+                    height=""
+                    loading="eager"
+                    sizes=""
+                    srcset=""
+                    title=""
+                    width=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

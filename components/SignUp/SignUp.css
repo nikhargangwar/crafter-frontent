@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.sign-up {
+  height: 100vh;
+  background-color: #211E1E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-up img {
+  position: relative;
+  bottom: 30px;
+  cursor: pointer;
+}
+
+.sign-up-form {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.sign-up-form-container {
+  width: 100%;
+  align-items: center;
+  /* margin-top: 40px; */
+}
+
+.sign-header p {
+  cursor: pointer;
+  color: rgb(65, 78, 172);
+  border-bottom: 3px solid rgb(160, 166, 212);
+  font-size: larger;
+}
+
+.sign-header button {
+  color: rgb(65, 78, 172);
+  border-bottom: 3px solid rgb(160, 166, 212);
+  font-size: larger;
+  border-radius: 0;
+}
+
+.line {
+  border-bottom: 0.3px solid #18CCCC;
+  width: 98%;
+}
+
+
+form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.signup-wrapper1 {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 140px 0;
+  border-radius: 10px;
+  border: 2px solid #18CCCC;
+  height: 90%;
+  color: white !important;
+
+}
+
+.signup-wrapper2 {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 2px solid #18CCCC;
+  height: 90%;
+  color: white !important;
+  /* margin: 10px 0; */
+
+}
+
+.signup-wrapper1 h1 {
+  font-family: 'Roboto', sans-serif !important;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: white !important;
+  margin: 0px;
+  margin-top: 20px;
+}
+
+.signup-wrapper2 h1 {
+  font-family: 'Roboto', sans-serif !important;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: white !important;
+  margin: 0px;
+  margin-top: 20px;
+
+}
+
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  flex: 1;
+}
+
+.sign-up-form>input {
+  width: 100%;
+  height: 55px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.sign-up-form>input ::placeholder {
+  color: white !important;
+}
+
+.sign-up-form-field label {
+  color: white;
+
+}
+
+.sign-up-form-field {
+  width: 100% !important;
+  margin: 0px !important;
+}
+
+.otp-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 20vh;
+}
+
+.otp-form>form>div {
+  width: 80% !important;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+}
+
+.register-form form {
+  width: 100%;
+  height: 80%;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.disabled-email {
+  border: 1px solid rgb(74, 74, 74) !important;
+  border-radius: 10px;
+}
+
+.disabled-email input {
+  background-color: rgb(74, 74, 74) !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.disabled-email>div>input>fieldset {
+  background-color: rgb(74, 74, 74) !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.disabled-email label {
+  color: rgb(208, 208, 208) !important;
+
+}
+
+.register-form>form>div {
+  width: 80% !important;
+  margin-bottom: 20px;
+}
+
+.sign-up-button {
+  font-family: 'Roboto', sans-serif !important;
+  width: 100% !important;
+  font-weight: 800 !important;
+  color: white !important;
+  background-color: #18CCCC !important;
+  font-size: large !important;
+}
+
+.sign-up-form-field {
+  width: 100%;
+
+
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 30ch;
+  width: 80%;
+  height: 10%;
+  color: white !important;
+}
+
+.button-wrapper h4 {
+  margin-top: 20px;
+  color: white !important;
+  font-size: small !important;
+}
+
+.get-otp-button {
+  font-family: 'Roboto', sans-serif !important;
+  width: 100% !important;
+  font-weight: 800 !important;
+  color: white !important;
+  background-color: #18CCCC !important;
+  font-size: large !important;
+}

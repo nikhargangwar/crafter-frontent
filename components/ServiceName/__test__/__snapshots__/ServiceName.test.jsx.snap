@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServiceName component should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="service-element-border"
+  >
+    <div
+      class="service-element"
+    >
+      Test Service
+    </div>
+  </div>
+</DocumentFragment>
+`;

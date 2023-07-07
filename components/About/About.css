@@ -1,0 +1,7 @@
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #20262E;
+  font-size: 120px;
+}

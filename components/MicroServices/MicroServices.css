@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@500;600;700&family=Big+Shoulders+Text:wght@700&family=Sofia+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.microservices {
+  background-color: #211E1E !important;
+  color: white !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  height: 100%;
+  width: 18vw;
+  min-width: 280px;
+  font-family: 'Big Shoulders Inline Display', cursive !important;
+  font-family: 'Big Shoulders Text', cursive !important;
+  font-family: 'Sofia Sans', sans-serif !important;
+  overflow-x: scroll;
+}
+
+.microservices::-webkit-scrollbar {
+  display: none;
+}
+
+.microservices-header {
+  height: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem !important;
+  border-bottom: 2px solid #18CCCC;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  margin: 3px;
+}
+
+.heading {
+  font-size: medium;
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  width: 100%;
+  border: solid black;
+}
+
+.drop-down-service {
+  width: 100%;
+}
+
+.microservice-drag-drop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content:space-evenly ; */
+  width: 100%;
+  margin: 2vh 0;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.service {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 8vh !important;
+  width: 70%;
+  margin: 1vh 0 0 0 !important;
+  color: rgb(255, 255, 255) !important;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1em;
+  background-color: none;
+  font-family: 'Bebas Neue', cursive;
+  border: 2px solid #18CCCC;
+  padding: 0 20px;
+}
+
+
+.service:hover {
+  color: rgb(255, 255, 255) !important;
+  cursor: pointer;
+  border: 2px solid black !important;
+  background-color: #464646;
+}
+
+/* @media screen and (max-width: 1600px) {
+  .microservices {
+    width: 20% !important;
+  }
+  .microservices-header {
+    font-size: 2.5vw !important;
+  }
+  .service {
+    font-size: 1.5vw !important;
+  }
+
+} */

@@ -1,0 +1,21 @@
+.Table-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.Table-outline{
+  /* border: 1px solid red; */
+   padding: 5%;
+   height: 800%;
+   /* border: 40px; */
+}
+.table-outline-bottom{
+  border: 2px solid #18CCCC;
+}
+.Table-outline-interior{
+
+  border: 2px solid #18CCCC;
+}

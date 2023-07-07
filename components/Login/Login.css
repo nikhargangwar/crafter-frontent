@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.login {
+  height: 100vh;
+  background-color: #211E1E;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login img {
+  position: relative;
+  bottom: 30px;
+  cursor: pointer;
+}
+
+.login-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.login-form-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90%;
+  width: 80%;
+  background-color: #211E1E;
+  border: 2px solid #18CCCC;
+  border-radius: 10px;
+  padding-bottom: 50px;
+}
+
+.login-form-wrapper p {
+  font-family: 'Roboto', sans-serif !important;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: white;
+  margin: 0px;
+}
+
+
+
+.login-form-fields {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  color: white;
+  width: 80%;
+  height: 30%;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.login-form-fields>div {
+  margin-bottom: 50px;
+
+}
+
+.login-form-field {
+  width: 30ch;
+  height: 10%;
+  color: white;
+  width: 80% !important;
+
+}
+
+
+.login-form-field fieldset:hover {
+  border: 1px solid #18CCCC;
+}
+
+.login-form-field label {
+
+  color: white;
+
+}
+
+.login-form-field input {
+
+  width: 100% !important;
+
+}
+
+.login-form-field span {
+
+  padding-bottom: 10px;
+
+}
+
+.login-form-field p {
+  font-size: small !important;
+}
+
+.login-form-button-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 30ch;
+  width: 65%;
+  height: 10%;
+  color: white !important;
+
+}
+
+.login-form-button-wrapper h4 {
+  color: white !important;
+  font-size: small !important;
+}
+
+.login-form-button {
+  font-family: 'Roboto', sans-serif !important;
+  width: 100% !important;
+  font-weight: 800 !important;
+  color: white !important;
+  background-color: #18CCCC !important;
+  font-size: large !important;
+}
